@@ -1,0 +1,38 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Django ---
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# --- Media & Static ---
+# Ignore user-uploaded media (images/videos)
+media/
+# Ignore collected static files (generated for production)
+staticfiles/
+
+# --- Environment Variables (CRITICAL) ---
+.env
+.env.*
+!env.example
+
+# --- Docker ---
+# Ignore local database data if you use bind mounts
+postgres_data/
+# Ignore docker logs
+*.log
+
+# --- IDEs & Editors ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+Desktop.ini

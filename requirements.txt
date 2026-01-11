@@ -1,0 +1,18 @@
+Django>=4.2,<5.0
+djangorestframework
+psycopg2-binary
+django-cors-headers
+Pillow  # For Image handling
+
+# Auth & Social
+django-allauth>=0.54.0
+dj-rest-auth>=5.0.0
+djangorestframework-simplejwt
+phonenumbers
+
+
+# The Missing Dependencies (Explicitly added now)
+requests
+cryptography
+pyjwt
+cffi
